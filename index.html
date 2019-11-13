@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="bookmark"  href="MapleStory.gif" type="image/x-icon"/>
+	<link href="MapleStory.gif" rel="icon" mask="" sizes="any"/>
+	<link href="MapleStory.gif" rel="shortcut icon" type="image/x-icon"/>
+	<title>惜也阁 - 登陆页面</title>
+	<meta http-equiv="Content-Type" content="text/html; charset:utf-8" />
+	<meta content="width=device-width,user-scalable=no" name="viewport"> 
+	<meta http-equiv="Content-Language" content="zh-CN" />
+	<meta name="Author" content="Qing Yang" />
+	<meta name="Copyright" content="Qing Yang" />
+	<meta name="keywords" content="文学" />
+	<meta name="discription" content="个人文章与部分优秀作品辑录" />
+	<link type="text/css" rel="stylesheet" href="css\basicControl.css" />
+	<style type="text/css">
+		.basicButton {
+			background: black;
+			color: white;
+			transition: background 0.2s linear 0s, color 0.2s linear 0s, border-radius 0.2s linear 0s;
+		}
+
+		.basicButton:hover {
+			border-radius: 20px;
+			background: white;
+			color: black;
+		}
+
+		.accountButton {
+			padding: 4px 12px;
+			border-radius: 0px;
+			background: transparent;
+			color: white;
+			transition: background 0.2s linear 0s, color 0.2s linear 0s, border-radius 0.2s linear 0s;
+		}
+
+		.accountButton:hover {
+			border-radius: 15px;
+			background: white;
+			color: black;
+		}
+
+		.Textp {
+			margin: 0px;
+			text-indent: 0px;
+			font-family: "SegoeUI","Microsoft YaHei","Hiragino Sans GB";
+			font-size: 16px;
+			line-height: 20px;
+			color: white;
+		}
+	</style>
+	<script type="text/javascript">
+		function f(){
+			window.event.srcElement.style.background = "black";
+			window.event.srcElement.style.color = "white";
+		}
+
+		function b(){
+			window.event.srcElement.style.background = "white";
+			window.event.srcElement.style.color = "black";
+		}
+
+		function accountButtonClick(){
+			alert("You have No Authority to do that");
+		}
+
+		function helpButtonClick(){
+			alert("若要登录，请尝试使用您的姓名首字母作为账号，您的学号+两个英文句号作为密码。");
+		}
+
+		function submitClick(){
+			var username = document.getElementById("username").value;
+			var password = document.getElementById("password").value;
+			switch(username){
+				case "lm":
+				if (password == "12001..") {
+					window.location.href = "MainHTML.html";
+				}
+				else {
+					alert("The password is incorrect.");
+				}
+				break;
+				case "yq":
+				if (password == "12002..") {
+					window.location.href = "MainHTML.html";
+				}
+				else {
+					alert("The password is incorrect.");
+				}
+				break;
+				default:
+				alert("Account does not exist.");
+				break;
+			}
+		}
+		document.onkeydown = function(event){
+			var e = event || window.event || arguments.callee.caller.arguments[0];
+        	if(e && e.keyCode == 27){ // 按 Esc 关闭当前页面
+        		window.opener = null;
+        		window.open("","_self");
+        		window.close();
+        	}
+        	if(e && e.keyCode == 113){ // 按 F2 
+        		alert("本网站存储的内容均为个人创作，请勿转载。若需要任何指引，请向 yang021@outlook.com 发送邮件以寻求帮助。");
+        	}            
+        	if(e && e.keyCode == 13){
+        		var username = document.getElementById("username").value;
+        		var password = document.getElementById("password").value;
+        		switch(username){
+        			case "lm":
+        			if (password == "12001..") {
+        				window.location.href = "MainHTML.html";
+        			}
+        			else {
+        				alert("The password is incorrect.");
+        			}
+        			break;
+        			case "yq":
+        			if (password == "12002..") {
+        				window.location.href = "MainHTML.html";
+        			}
+        			else {
+        				alert("The password is incorrect.");
+        			}
+        			break;
+        			default:
+        			alert("Account does not exist.");
+        			break;
+        		}
+        	}
+        } 
+    </script>
+</head>
+<body>
+	<div id="Container" style="min-width: 270px;background: black;margin: 0px;">
+		<div id="centre">
+			<div id="centreControl" style="width: 270px;padding: 0px;margin: 0px auto;">
+				<img class="Textimg" style="margin:200px 85px 100px 85px;width:100px;height:100px;" src="image/workBasic/Head-Xiye.jpg" alt="惜也阁" />
+				<div id="inputDiv" style="width: 100%;height: auto;">
+					<div id="textUsername" style="width: 100%;height: 30px;">
+						<p class="Textp" style="font-size: 16px;line-height: 30px;">Username</p>
+					</div>
+					<div id="usernameInput" style="width: 100%;height: 30px;text-align: center;">
+						<input type="text" id="username" style="margin: 0px;font-size: 20px;width: 100%;height: 28px;background-color:white;color:black;border: 1px solid white;padding: 0px 5px 0px 5px;" onFocus="f();" onBlur="b();" />
+					</div>
+					<div id="textPassword" style="width: 100%;height: 30px;">
+						<p class="Textp" style="font-size: 16px;line-height: 30px;margin-top: 2px;">Password</p>
+					</div>
+					<div id="passwordInput" style="width: 100%;height: 30px;">
+						<input type="password" id="password" style="margin: 0px;font-size: 20px;width: 100%;height: 28px;background-color:white;color:black;border: 1px solid white;padding: 0px 5px 0px 5px;" onFocus="f();" onBlur="b();" />
+					</div>
+				</div>
+				<div id="submitDiv" style="width: 100%;height: 60px;text-align: center;margin-top: 30px;">
+					<button class="basicButton" style="margin: 0px;border: 1px solid white;text-align: center;width: 150px;font-size: 16px;font-weight: bold;" onclick="submitClick()">Submit</button>
+				</div>
+				<div style="width: 100%;height: 20px;margin-top: 20px;">
+					<p class="Textp" style="margin: 0px;" align="center">- or -</p>
+				</div>
+				<div id="buttonDiv" style="width: 100%;height: 24px;text-align: center;margin-top: 6px;">
+					<button class="accountButton" onclick="accountButtonClick()">Sign in with Microsoft Account</button>
+				</div>
+				<div style="width: 100%;height: 20px;margin-top: 20px;">
+					<p class="Textp" style="margin: 0px;" align="center">- help -</p>
+				</div>
+				<div id="buttonDiv" style="width: 100%;height: 24px;text-align: center;margin-top: 6px;">
+					<button class="accountButton" onclick="helpButtonClick()">How can I get in?</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
