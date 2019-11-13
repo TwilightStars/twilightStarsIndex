@@ -1,0 +1,27 @@
+﻿.basicButton{
+  border-left: 4px solid transparent;
+  margin: 0px 0px 10px 20px;
+  padding: 0px 0px 0px 5px;
+  font-size: 20px;
+  width: 220px;
+  height: 40px;
+  text-align: left;
+  color: black;
+  background: transparent;
+  font-family: "SegoeUI","Microsoft YaHei","Hiragino Sans GB";
+  transition: font-size 0.2s linear 0s,background 0.2s linear 0s;
+}
+
+.basicButton:hover{
+  font-size: 22px;
+  background: #BDBDBD;
+}
+
+#twiLeft {
+  height: auto;
+  min-height: 493px;
+  width: 240px;
+  background: transparent;
+  float: left;
+  margin: 10px 0px 0px 0px;
+}

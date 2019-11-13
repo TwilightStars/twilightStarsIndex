@@ -1,0 +1,20 @@
+﻿.bookButton{
+  border: 0px;
+  margin: 0px;
+  padding: 226px 0px 0px 0px;
+  font-size: 24px;
+  width: 186px;
+  height: 286px;
+  line-height: 24px;
+  text-align: center;
+  vertical-align: center;
+  float: left;
+  color: black;
+  font-family: "SegoeUI","Microsoft YaHei","Hiragino Sans GB";
+  transition: font-size 0.2s linear 0s,color 0.2s linear 0s;
+}
+
+.bookButton:hover{
+  font-size: 26px;
+  color: #2E9AFE;
+}

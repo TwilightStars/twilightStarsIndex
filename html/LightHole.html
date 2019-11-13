@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<link rel="bookmark"  href="..\MapleStory.gif" type="image/x-icon"/>
+	<link href="..\MapleStory.gif" rel="icon" mask="" sizes="any"/>
+	<link href="..\MapleStory.gif" rel="shortcut icon" type="image/x-icon"/>
+	<title>光核·隐月雪魂</title>
+	<meta http-equiv="Content-Type" content="text/html; charset:utf-8" />
+        <meta content="width=device-width,user-scalable=no" name="viewport"> 
+        <meta http-equiv="Content-Language" content="zh-CN" />
+        <meta name="Author" content="Qing Yang" />
+        <meta name="Copyright" content="Qing Yang" />
+        <meta name="keywords" content="文学" />
+        <meta name="discription" content="光核系列中隐月雪魂章的内容" />
+	<link type="text/css" rel="stylesheet" href="..\css\lightHole.css" />
+	<!--<script type="text/javascript" src="..\js\basicControl.js"></script>-->
+	<script type="text/javascript" src="..\js\lightHole.js"></script>
+	<style type="text/css">
+		/*滚动条整体样式*/
+		#textBox::-webkit-scrollbar {
+			width: 10px;
+			height: 1px;
+		}
+		/*滚动条滑块*/
+		#textBox::-webkit-scrollbar-thumb {
+			-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+			border-radius: 10px;
+			background: #3264C4;
+		}
+		/*滚动条轨道*/
+		#textBox::-webkit-scrollbar-track {
+			-webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0);
+			border-radius: 10px;
+			background: #CECEF6;
+		}
+	</style>
+</head>
+<body>
+	<div id="Container">
+		<button class="topControlButton" onclick="textBoxScroll_click()" onmouseover="changeColor()" onmouseout="colorBack()">返回顶部</button>
+		<div id="headTitle" style="background: #3264C4;">
+			<div id="headTitleControl">
+				<div id="headLeft">
+					<p class="Texth1" style="color: white;">光核·隐月雪魂</p>
+					<p class="Texth2" style="color: white;margin: 20px 0px 0px 20px;">所有爱与痛恨的故事，都湮灭在历史的血泪里。</p>
+				</div>
+				<div id="headRight">
+					<img class="Textimg" style="margin:84px 10px 0px 0px;width:40px;height:40px;float: left;" src="../image/workBasic/Qing-logo.png" alt="Qing-logo" />
+					<p class="Textp" style="margin: 85px 0px 0px 0px;color: white;text-indent: 0px;">Author: Qing Yang</p>
+					<p class="Textp" style="margin: 0px;color: white;text-indent: 0px;">Version 1.0</p>
+				</div>
+			</div>
+		</div>
+		<div id="centre">
+			<div id="centreControl">
+				<div id="textBox" style="background: url(../image/lightHole/Background_LightHole.png);">
+					<p class="Texth2" style="margin: 450px 0px 10px 20px;">欢迎阅读</p>
+					<p class="Texth2" style="margin: 0px 0px 10px 20px;">光核·隐月雪魂</p>
+					<p class="Textp" style="margin: 5px 0px 5px 20px;text-indent: 0px;">本文为纪念逝去的抱负，与不甘的灵魂。</p>
+					<p class="Textp" style="margin: 5px 0px 5px 20px;text-indent: 0px;">2015年10月4日</p>
+				</div>
+				<div id="chapterBox">
+					<button class="basicButton" onclick="chapterButton_click()">世界设定</button>
+					<hr style="margin: 10px 0px 20px 20px">
+					<button class="basicButton" onclick="chapterButton_click()">历史</button>
+					<button class="basicButton" onclick="chapterButton_click()">林烨</button>
+					<button class="basicButton" onclick="chapterButton_click()">隐月</button>
+					<button class="basicButton" onclick="chapterButton_click()">讲武堂</button>
+					<button class="basicButton" onclick="chapterButton_click()">尚未完成</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>

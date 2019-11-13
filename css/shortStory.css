@@ -1,0 +1,238 @@
+﻿*{-webkit-text-size-adjust:none;}
+html,body{height:100%;overflow:hidden;}
+body{margin:0;font:12px "\5B8B\4F53",sans- serif;background:#ffffff;}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0;margin:0;}
+table,td,tr,th{font-size:12px;}
+li{list-style-type:none;}
+img{vertical-align:top;border:0;}
+ol,ul{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:12px;font-weight:normal;}
+address,cite,code,em,th{font-weight:normal;font-style:normal;}
+a:link {color:#555555;text-decoration:none;}
+a:hover {text-decoration:none}
+button{margin:0;padding:0;border:0px solid transparent;outline:none;}
+
+/* div style */
+div#Container {
+   height: 100%;
+   width: 100%;
+   min-width: 1180px;
+   max-width: 1920px;
+   margin: 0px auto;
+   padding: 0px;
+   background: transparent;
+   vertical-align: center;
+   overflow-y:auto;
+}
+
+#headTitle {
+  height: 160px;
+  width: 100%;
+  vertical-align: center;
+}
+
+#headTitleControl {
+  height: 160px;
+  width: 1180px;
+  margin: 0px auto;
+  background: transparent;
+  vertical-align: center;
+}
+
+#headLeft {
+  height: 100%;
+  width: 920px;
+  background: transparent;
+  float: left;
+  margin: 0px;
+}
+
+#headRight {
+  height: 100%;
+  width: 260px;
+  background: transparent;
+  float: right;
+  margin: 0px;
+}
+
+#centre {
+  height: auto;
+  min-height: 523px;
+  width: 100%;
+  background: transparent;
+  vertical-align: center;
+}
+
+#centreControl {
+  height: auto;
+  min-height: 523px;
+  width: 1180px;
+  margin: 0px auto;
+  background: transparent;
+  vertical-align: center;  
+}
+
+#bookBox {
+   width: 160px;
+   height: 240px;
+   margin: 20px 0px 0px 20px;
+   padding: 0px;
+   float:left;
+   background: #F5A9A9;
+   vertical-align: center;
+}
+
+#textBox {
+   height: 600px;
+   width: 920px;
+   margin: 20px 0px 0px 0px;
+   padding: 0px;
+   background: transparent;
+   vertical-align: center;
+   float: left;
+   overflow-y:auto;
+   -ms-overflow-style: none;
+   overflow: -moz-scrollbars-none;
+}
+
+#chapterBox {
+   height: 600px;
+   width: 240px;
+   margin: 20px 0px 0px 20px;
+   padding: 0px;
+   background: transparent;
+   vertical-align: center;
+   float: left;
+   overflow-y: auto;
+   overflow-x: hidden;
+   -ms-overflow-style: none;
+   overflow-y: -moz-scrollbars-none;
+}
+
+#chapterBox::-webkit-scrollbar { width: 0 !important }
+
+/* button */
+.basicButton{
+  border: 0px;
+  margin: 0px 0px 10px 20px;
+  padding: 0px 0px 0px 5px;
+  font-size: 20px;
+  width: 220px;
+  height: 40px;
+  text-align: left;
+  color: black;
+  background: transparent;
+  font-family: "SegoeUI","Microsoft YaHei","Hiragino Sans GB";
+  transition: font-size 0.2s linear 0s,background 0.2s linear 0s;
+}
+
+.basicButton:hover{
+  font-size: 22px;
+  background: #BDBDBD;
+}
+
+.sSButton{
+  border: 2px solid black;
+  margin: -4px 2px 2px -4px;
+  padding: 180px 0px 0px 0px;
+  font-size: 24px;
+  width: 160px;
+  height: 240px;
+  line-height: 24px;
+  text-align: center;
+  vertical-align: center;
+  float: left;
+  color: black;
+  background: #FBF8EF;
+  font-family: "SegoeUI","Microsoft YaHei","Hiragino Sans GB";
+  transition: font-size 0.2s linear 0s,color 0.2s linear 0s,border 0.2s linear 0s;
+}
+
+.sSButton:hover{
+  font-size: 26px;
+  color: #F78181;
+  border: 2px solid #F78181;
+}
+
+.topControlButton{
+  margin: 0px;
+  font-size: 16px;
+  font-family: "SegoeUI","Microsoft YaHei","Hiragino Sans GB";
+  line-height: 20px;
+  width: 48px;
+  height: 48px;
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  background: transparent;
+}
+
+/* text */
+.Texth1 {
+   margin: 35px 0px 0px 20px;
+   font-family: "SegoeUI","Microsoft YaHei","Hiragino Sans GB";
+   font-size: 38px;
+   line-height: 38px;
+   color: black;
+}
+
+.Texth2 {
+   margin: 12px 0px 0px 20px;
+   font-family: "SegoeUI","Microsoft YaHei","Hiragino Sans GB";
+   font-size: 32px;
+   line-height: 32px;
+   color: black;
+}
+
+.Texth3 {
+   margin: 0px 0px 10px 52px;
+   font-family: "SegoeUI","Microsoft YaHei","Hiragino Sans GB";
+   font-size: 24px;
+   line-height: 24px;
+   color: black;
+}
+
+.Textp {
+   margin: 10px 80px 10px 20px;
+   text-indent: 32px;
+   font-family: "SegoeUI","Microsoft YaHei","Hiragino Sans GB";
+   font-size: 16px;
+   line-height: 20px;
+   color: black;
+}
+
+/* images */
+.Textimg {
+   margin: 0px;
+   padding: 0px;
+   height: auto;
+   width: auto;
+   /*使图片不受 onmousemove 等影响*/
+   pointer-events: none;
+}
+
+.liimg {
+   margin: 0px 10px 0px 0px;
+   padding: 0px;
+   width: 30px;
+   height: 30px;
+   /*使图片不受 onmousemove 等影响*/
+   pointer-events: none;
+}
+
+.dlimg {
+   margin: 0px 5px 0px 0px;
+   padding: 0px;
+   width: 30px;
+   height: 30px;
+   /*使图片不受 onmousemove 等影响*/
+   pointer-events: none;
+}
+
+/* ohters */
+.titleHr {
+  align: right;
+  width: 900px;
+  color: black;
+  size: 1px;
+}

@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<link rel="bookmark"  href="..\MapleStory.gif" type="image/x-icon"/>
+	<link href="..\MapleStory.gif" rel="icon" mask="" sizes="any"/>
+	<link href="..\MapleStory.gif" rel="shortcut icon" type="image/x-icon"/>
+	<title>吴越春秋</title>
+	<meta http-equiv="Content-Type" content="text/html; charset:utf-8" />
+        <meta content="width=device-width,user-scalable=no" name="viewport"> 
+        <meta http-equiv="Content-Language" content="zh-CN" />
+        <meta name="Author" content="Liqi Feng" />
+        <meta name="Copyright" content="Liqi Feng" />
+        <meta name="keywords" content="文学" />
+        <meta name="discription" content="吴越春秋全部章节内容" />
+	<link type="text/css" rel="stylesheet" href="..\css\basicControl.css" />
+	<link type="text/css" rel="stylesheet" href="..\css\mainHTML.css" />
+	<style type="text/css">
+		.basicButton {
+			transition: background 0.2s linear 0s;
+		}
+
+		.basicButton:hover {
+			background: #BDBDBD;
+		}
+	</style>
+	<script type="text/javascript" src="..\js\basicControl.js"></script>
+	<script type="text/javascript" src="..\js\wuyueHistory.js"></script>
+</head>
+<body>
+	<div id="Container">
+		<button class="topControlButton" style="color: #C38AB4;border: 1px solid #C38AB4;" onclick="scrollControl_click()" onmouseover="changeColor()" onmouseout="colorBack()">返回顶部</button>
+		<div id="headTitle" style="background: #C38AB4;">
+			<div id="headTitleControl">
+				<div id="headLeft">
+					<p class="Texth1" style="color: white;">吴越春秋</p>
+					<p class="Texth2" style="color: white;">江湖梦冷心未冷</p>
+				</div>
+				<div id="headRight">
+					<img class="Textimg" style="margin:84px 10px 0px 0px;width:40px;height:40px;float: left;" src="../image/workBasic/Qi-logo.jpg" alt="Qi-logo" />
+					<p class="Textp" style="margin: 85px 0px 0px 0px;color: white;text-indent: 0px;">Author: Liqi Feng</p>
+					<p class="Textp" style="margin: 0px;color: white;text-indent: 0px;">Version 1.0</p>
+				</div>
+			</div>
+		</div>
+		<div id="centre">
+			<div id="centreControl">
+				<div id="Left">
+					<button class="basicButton" onclick="chapterButton_click()" onmouseover="changeColor()" onmouseout="colorBack()">第一章</button>
+					<button class="basicButton" onclick="chapterButton_click()" onmouseover="changeColor()" onmouseout="colorBack()">第二章</button>
+					<button class="basicButton" onclick="chapterButton_click()" onmouseover="changeColor()" onmouseout="colorBack()">第三章</button>
+					<button class="basicButton" onclick="chapterButton_click()" onmouseover="changeColor()" onmouseout="colorBack()">第四章</button>
+					<button class="basicButton" onclick="chapterButton_click()" onmouseover="changeColor()" onmouseout="colorBack()">审定后记</button>
+				</div>
+				<div id="Right" style="background: url(../image/wuyueHistory/Background_WuyueHistory.png);">
+					<div id="chapterNameTDiv"></div>
+					<div id="chapterTextDiv">
+						<p class="Texth2" style="margin: 380px 0px 5px 20px;">欢迎阅读</p>
+						<p class="Texth2" style="margin: 0px 0px 10px 20px;">吴越春秋</p>
+						<p class="Textp" style="margin: 5px 0px 5px 20px;text-indent: 0px;">本文章由楚放歌创作</p>
+						<p class="Textp" style="margin: 5px 0px 5px 20px;text-indent: 0px;">2010年 未记载日期</p>
+					</div>
+					<div id="chapterNameBDiv"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>

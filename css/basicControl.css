@@ -1,0 +1,286 @@
+﻿*{-webkit-text-size-adjust:none;}
+html,body{height:100%;overflow:hidden;}
+body{margin:0;font:12px "\5B8B\4F53",sans- serif;background:#ffffff;}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0;margin:0;}
+table,td,tr,th{font-size:12px;}
+li{list-style-type:none;}
+img{vertical-align:top;border:0;}
+ol,ul{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:12px;font-weight:normal;}
+address,cite,code,em,th{font-weight:normal;font-style:normal;}
+a:link {color:#555555;text-decoration:none;}
+a:hover {text-decoration:none}
+button{margin:0;padding:0;border:0px solid transparent;outline:none;font-family: "SegoeUI","Microsoft YaHei","Hiragino Sans GB";}
+
+/* div style */
+div#Container {
+   height: 100%;
+   width: 100%;
+   min-width: 1180px;
+   max-width: 1920px;
+   margin: 0px auto;
+   padding: 0px;
+   background: transparent;
+   vertical-align: center;
+   overflow-y:auto;
+}
+
+#headTitle {
+	height: 160px;
+	width: 100%;
+	vertical-align: center;
+}
+
+#headTitleControl {
+  height: 160px;
+  width: 1180px;
+  margin: 0px auto;
+  background: transparent;
+  vertical-align: center;
+}
+
+#headLeft {
+  height: 100%;
+  width: 920px;
+  background: transparent;
+  float: left;
+  margin: 0px;
+}
+
+#headRight {
+  height: 100%;
+  width: 260px;
+  background: transparent;
+  float: right;
+  margin: 0px;
+}
+
+#centre {
+  height: auto;
+  min-height: 523px;
+  width: 100%;
+  background: transparent;
+  vertical-align: center;
+}
+
+#centreControl {
+  height: auto;
+  min-height: 523px;
+  width: 1180px;
+  margin: 0px auto;
+  background: transparent;
+  vertical-align: center;  
+}
+
+#Left {
+	height: auto;
+	min-height: 493px;
+	width: 240px;
+	background: transparent;
+	float: left;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+#Right {
+   height: 100%;
+   min-height: 523px;
+   width: 930px;
+   background: transparent;
+   /*Use "url(banner.jpg)" to link pictures*/
+   /*Use "repeat:none;" to control repeating*/
+   float: left;
+   margin: 10px 0px 0px 10px;
+   overflow-y:auto;
+}
+
+#chapterNameTDiv {
+   height: auto;
+   width: 930px;
+   background: transparent;
+   float: left;
+   margin: 0px 0px 0px 0px;
+}
+
+#chapterTextDiv {
+   height: auto;
+   width: 930px;
+   background: transparent;
+   float: left;
+   margin: 0px 0px 0px 0px;
+}
+
+#chapterNameBDiv {
+   height: auto;
+   width: 930px;
+   background: transparent;
+   float: left;
+   margin: 0px 0px 0px 0px;
+}
+
+/* element style */
+
+/* button */
+.basicButton{
+  border-left: 4px solid transparent;
+  margin: 0px 0px 10px 20px;
+  padding: 0px 0px 0px 5px;
+  font-size: 20px;
+  width: 220px;
+  height: 40px;
+  text-align: left;
+  color: black;
+  background: transparent;
+  font-family: "SegoeUI","Microsoft YaHei","Hiragino Sans GB";
+}
+
+.chapterInsideButton{
+  margin: 15px 0px 15px 20px;
+  font-size: 16px;
+  line-height: 16px;
+  width: 38px;
+  height: 38px;
+  color: white;
+  text-align: center;
+  background: #A4A4A4;
+  vertical-align: center;
+  font-family: "SegoeUI","Microsoft YaHei","Hiragino Sans GB";
+  transition: color 0.2s linear 0s;
+}
+
+.chapterInsideButton:hover{
+  color: #D8D8D8;
+}
+
+.topControlButton{
+  margin: 0px;
+  color: #2E9AFE;
+  font-size: 16px;
+  font-family: "SegoeUI","Microsoft YaHei","Hiragino Sans GB";
+  line-height: 20px;
+  width: 48px;
+  height: 48px;
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  background: transparent;
+  border: 1px solid #2E9AFE;
+}
+
+/* text */
+.Texth1 {
+   margin: 35px 0px 0px 20px;
+   font-family: "SegoeUI","Microsoft YaHei","Hiragino Sans GB";
+   font-size: 38px;
+   line-height: 38px;
+   color: black;
+}
+
+.Texth2 {
+   margin: 12px 0px 0px 20px;
+   font-family: "SegoeUI","Microsoft YaHei","Hiragino Sans GB";
+   font-size: 32px;
+   line-height: 32px;
+   color: black;
+}
+
+.Texth3 {
+   margin: 0px 0px 10px 18px;
+   font-family: "SegoeUI","Microsoft YaHei","Hiragino Sans GB";
+   font-size: 24px;
+   line-height: 24px;
+   color: #2E9AFE;
+}
+
+.Textp {
+   margin: 10px 80px 10px 20px;
+   text-indent: 32px;
+   font-family: "SegoeUI","Microsoft YaHei","Hiragino Sans GB";
+   font-size: 16px;
+   line-height: 20px;
+   color: black;
+}
+
+.Textt {
+   margin: 5px 5px 5px 20px;
+   font-family: "SegoeUI","Microsoft YaHei","Hiragino Sans GB";
+   font-size: 16px;
+   line-height: 16px;
+   color: red;
+}
+
+.Texttb{
+   margin: 10px 10px 0px 20px;
+   font-family:"SegoeUI","Microsoft YaHei","Hiragino Sans GB";
+   font-size: 48px;
+   line-height: 48px;
+   color: black;
+}
+
+.Texttb tr th{
+   padding: 5px;
+   font-family: "SegoeUI","Microsoft YaHei","Hiragino Sans GB";
+   font-size: 16px;
+   line-height: 16px;
+   font-weight: bold;
+   max-width: 300px;
+} 
+
+.Texttb tr td{
+   padding: 5px;
+   font-family: "SegoeUI","Microsoft YaHei","Hiragino Sans GB";
+   font-size: 16px;
+   line-height: 16px;
+   max-width: 300px;
+}
+
+.bookName {
+  padding: 0px;
+  margin: 0px;
+  font-size: 24px;
+  line-height: 24px;
+  font-family: "SegoeUI","Microsoft YaHei","Hiragino Sans GB";
+}
+
+.bigTitle{
+   font-family: "SegoeUI","Microsoft YaHei","Hiragino Sans GB";
+   font-size: 96px;
+   line-height: 96px;
+   color: black;
+} 
+
+/* images */
+.Textimg {
+   margin: 0px;
+   padding: 0px;
+   height: auto;
+   width: auto;
+   /*使图片不受 onmousemove 等影响*/
+   pointer-events: none;
+}
+
+.liimg {
+   margin: 0px 10px 0px 0px;
+   padding: 0px;
+   width: 30px;
+   height: 30px;
+   /*使图片不受 onmousemove 等影响*/
+   pointer-events: none;
+}
+
+.dlimg {
+   margin: 0px 5px 0px 0px;
+   padding: 0px;
+   width: 30px;
+   height: 30px;
+   /*使图片不受 onmousemove 等影响*/
+   pointer-events: none;
+}
+
+/* ohters */
+.titleHr {
+  align: right;
+  width: 900px;
+  color: black;
+  size: 1px;
+}
